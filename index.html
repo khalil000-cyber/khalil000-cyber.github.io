@@ -16,10 +16,49 @@
             min-height: 100vh;
             margin: 0;
         }
+        cv-card {
+            backgroud-color: #2a2a35:
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+            text-align: center;
+            max-width: 450px;
+            width: 100%;
+        }
+        avatar {
+            width: 130px;
+            height: 130px;
+            border-radius: 50%;
+            border: 4px solid #00adb5;
+            object-fit: cover;
+            margin-bottom 15px;
+        }
+        h1 {
+            color: #00adb5;
+            margin: 10px 0;
+            font size: 24px;
+        }
+        p {
+            color: #b3b3cc;
+            font size: 16px;
+            line-height: 1.6;
+        }
+        highlight {
+            background-color: #00adb5;
+            color: #1e1e24;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-weight: bold;
+        } 
     </style>
 </head>
 <body>
-    <h1>Chào mừng thầy cô và các bạn đến với trang web của em!</h1>
-    <p>Đây là trang Github Page được tạo bởi tài khoản khalil000-cyber.</p>
+    <div class="cv-card">
+        <img class="avatar" src="https://picsum.photos" alt="Avatar">
+        <h1>KHALIL000-CYBER</h1>
+        <p><span class="highlight">Mục tiêu: Kỹ sư AI </span></p>
+        <p>Chào mừng thầy cô đến với trang GitHub Page của em.Đây là nơi em sẽ lưu trữ các dự án và bài tập trong suốt học kì này!</p>
+    </div>
+    
 </body>
 </html>
